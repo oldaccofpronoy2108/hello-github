@@ -1,1 +1,1 @@
-#Welcome to my repository! This is a sample repositiory made by me.
+# Welcome to my repository! This is a sample repositiory made by me.
