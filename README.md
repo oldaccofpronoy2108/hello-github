@@ -1,4 +1,4 @@
-*This page contains all the resources that you need for windows 10 and office 365*
+*This page contains all the resources that you need for Windows 10 and Office 365*
 
 [Office 365 ProPlus](http://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/O365ProPlusRetail.img)
 
@@ -6,4 +6,4 @@
 
 [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209)
 
-[Office 2019]()
+[Office 2019](https://archive.org/download/OfficeProPlus2019Retail/OfficeProPlus2019Retail.iso)
