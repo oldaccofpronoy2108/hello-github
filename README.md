@@ -1,4 +1,4 @@
-<!-This page contains all the resources that you need for windows 10 and office 365-->
+*This page contains all the resources that you need for windows 10 and office 365*
 
 <br>
 [Office 365 ProPlus](http://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/O365ProPlusRetail.img)
