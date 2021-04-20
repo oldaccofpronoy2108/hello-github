@@ -7,3 +7,6 @@
 [Windows 10 Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=691209)
 
 [Office 2019](https://archive.org/download/OfficeProPlus2019Retail/OfficeProPlus2019Retail.iso)
+
+<pre> KMS for Office 365 </pre>
+<code></code>
