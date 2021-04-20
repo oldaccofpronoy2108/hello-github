@@ -1,4 +1,4 @@
-*This page contains all the resources that you need for Windows 10 and Office 365*
+*This page contains all the resources that you need for Windows 10 and Microsoft Office*
 
 [Office 365 ProPlus](http://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/O365ProPlusRetail.img)
 
@@ -7,6 +7,7 @@
 [Windows 10 Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=691209)
 
 [Office 2019](https://archive.org/download/OfficeProPlus2019Retail/OfficeProPlus2019Retail.iso)
+
 
 <code>KMS for Office 365</code>
 <pre>cd /d %ProgramFiles%\Microsoft Office\Office16
@@ -21,6 +22,7 @@ cscript ospp.vbs /unpkey:CPQVG >nul
 cscript ospp.vbs /sethst:kms8.msguides.com
 cscript ospp.vbs /setprt:1688
 cscript ospp.vbs /act</pre>
+
 
 <code>Batch Script for Office 365</code>
 <pre>@echo off
