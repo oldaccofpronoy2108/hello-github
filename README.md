@@ -8,14 +8,19 @@
 
 [Office 2019](https://archive.org/download/OfficeProPlus2019Retail/OfficeProPlus2019Retail.iso)
 
+__For the activation, copy the code given below & paste it in Command prompt (with admin rights, by running it as an administrator.)__
 
-<code>KMS for Office 365</code>
-<pre>cd /d %ProgramFiles%\Microsoft Office\Office16
-cd /d %ProgramFiles(x86)%\Microsoft Office\Office16</pre>
+
+<code>Manual Activation for Office 365</code>
+<pre>cd /d %ProgramFiles%\Microsoft Office\Office16 (for 64-bit version)
+cd /d %ProgramFiles(x86)%\Microsoft Office\Office16 (for 32-bit version)</pre>
 
 <pre>for /f %x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"</pre>
 
-<pre>cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
+<code>KMS Activation for Office 365</code>
+<pre>cd /d %ProgramFiles%\Microsoft Office\Office16 (for 64-bit version)
+cd /d %ProgramFiles(x86)%\Microsoft Office\Office16 (for 32-bit version)</pre>
+<pre> cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
 cscript ospp.vbs /unpkey:BTDRB >nul
 cscript ospp.vbs /unpkey:KHGM9 >nul
 cscript ospp.vbs /unpkey:CPQVG >nul
@@ -40,3 +45,15 @@ echo.&echo =====================================================================
 :halt
 pause >nul</pre>
 
+<code>Manual Activation for Visio 2019<code>
+<pre>cd /d %ProgramFiles%\Microsoft Office\Office16</pre>
+  If you are using 64 bit version of Visio 2019
+<pre>cd /d %ProgramFiles(x86)%\Microsoft Office\Office16</pre>
+  If you are using 32 bit version of Visio 2019
+<pre>for /f %x in ('dir /b ..\root\Licenses16\visiopro2019vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"</pre>
+  
+<code>KMS Activation for Visio 2019<code>
+<pre>cscript ospp.vbs /inpkey:THE_CLIENT_KEY (Replace Client with KMS Key)
+cscript ospp.vbs /sethst:kms8.msguides.com
+cscript ospp.vbs /setprt:1688
+cscript ospp.vbs /act</pre>
