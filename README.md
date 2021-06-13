@@ -11,13 +11,13 @@
 __For the activation, copy the code given below & paste it in Command prompt (with admin rights, by running it as an administrator.)__
 
 
-<code>Manual Activation for Office 365</code>
+## Manual Activation for Office 365
 <pre>cd /d %ProgramFiles%\Microsoft Office\Office16 (for 64-bit version)
 cd /d %ProgramFiles(x86)%\Microsoft Office\Office16 (for 32-bit version)</pre>
 
 <pre>for /f %x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"</pre>
 
-<code>KMS Activation for Office 365</code>
+## KMS Activation for Office 365
 <pre>cd /d %ProgramFiles%\Microsoft Office\Office16 (for 64-bit version)
 cd /d %ProgramFiles(x86)%\Microsoft Office\Office16 (for 32-bit version)</pre>
 <pre> cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
@@ -28,8 +28,7 @@ cscript ospp.vbs /sethst:kms8.msguides.com
 cscript ospp.vbs /setprt:1688
 cscript ospp.vbs /act</pre>
 
-
-<code>Batch Script for Office 365</code>
+## Batch Script for Office 365
 <pre>@echo off
 title Activate Office 365 ProPlus for FREE - MSGuides.com&cls&echo ============================================================================&echo #Project: Activating Microsoft software products for FREE without software&echo ============================================================================&echo.&echo #Supported products: Office 365 ProPlus (x86-x64)&echo.&echo.&(if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")&(if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")&(for /f %%x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)&(for /f %%x in ('dir /b ..\root\Licenses16\proplusvl_mak*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)&echo.&echo ============================================================================&echo Activating your Office...&cscript //nologo slmgr.vbs /ckms >nul&cscript //nologo ospp.vbs /setprt:1688 >nul&cscript //nologo ospp.vbs /unpkey:WFG99 >nul&cscript //nologo ospp.vbs /unpkey:DRTFM >nul&cscript //nologo ospp.vbs /unpkey:BTDRB >nul&cscript //nologo ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99 >nul&set i=1
 :server
@@ -45,15 +44,5 @@ echo.&echo =====================================================================
 :halt
 pause >nul</pre>
 
-<code>Manual Activation for Visio 2019<code>
-<pre>cd /d %ProgramFiles%\Microsoft Office\Office16</pre>
-  If you are using 64 bit version of Visio 2019
-<pre>cd /d %ProgramFiles(x86)%\Microsoft Office\Office16</pre>
-  If you are using 32 bit version of Visio 2019
-<pre>for /f %x in ('dir /b ..\root\Licenses16\visiopro2019vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"</pre>
-  
-<code>KMS Activation for Visio 2019<code>
-<pre>cscript ospp.vbs /inpkey:THE_CLIENT_KEY (Replace Client with KMS Key)
-cscript ospp.vbs /sethst:kms8.msguides.com
-cscript ospp.vbs /setprt:1688
-cscript ospp.vbs /act</pre>
+## Manual Activation for Visio 2019 
+Check releases page and install the files given there.
